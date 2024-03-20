@@ -1,0 +1,7 @@
+Ex1:
+Correction des erreurs: Check
+
+Ex2:
+ a. Oui ça compile 
+ b. Oui
+ c.
