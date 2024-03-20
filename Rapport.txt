@@ -1,7 +1,9 @@
 Ex1:
-Correction des erreurs: Check
+Correction des erreurs: Check 
+Voir image: compilationetwarnings
 
 Ex2:
  a. Oui ça compile 
- b. Oui
- c.
+ b. Oui 
+ 2. a.voir image: errorlens
+    b. il y a %g qui est un type double alors que i est un type int
