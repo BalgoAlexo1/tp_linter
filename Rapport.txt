@@ -7,3 +7,16 @@ Ex2:
  b. Oui 
  2. a.voir image: errorlens
     b. il y a %g qui est un type double alors que i est un type int
+
+
+
+Ex3:
+1. a)i)  Le problème de ce prompt réside dans sa formulation. Il demande une "liste exhaustive des villes de l'Essonne", 
+         ce qui implique que la réponse devrait contenir toutes les villes de ce département.   
+      ii)La réponse peut être exacte si le modèle génère une liste de toutes les villes de l'Essonne selon une définition standard acceptée. 
+
+   
+   b)i) Le problème de ce prompt est qu'il demande de décoder une chaîne de caractères sans fournir aucune indication sur l'algorithme ou la méthode de décodage à utiliser. 
+      ii) La réponse peut être exacte si le modèle parvient à identifier le type de codage utilisé (par exemple, Base64, chiffrement AES, etc.) et à appliquer le processus de décodage approprié. 
+
+      
