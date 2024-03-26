@@ -14,9 +14,65 @@ Ex3:
 1. a)i)  Le problème de ce prompt réside dans sa formulation. Il demande une "liste exhaustive des villes de l'Essonne", 
          ce qui implique que la réponse devrait contenir toutes les villes de ce département.   
       ii)La réponse peut être exacte si le modèle génère une liste de toutes les villes de l'Essonne selon une définition standard acceptée. 
-
+      iii) voir image liste exhaustive
    
    b)i) Le problème de ce prompt est qu'il demande de décoder une chaîne de caractères sans fournir aucune indication sur l'algorithme ou la méthode de décodage à utiliser. 
       ii) La réponse peut être exacte si le modèle parvient à identifier le type de codage utilisé (par exemple, Base64, chiffrement AES, etc.) et à appliquer le processus de décodage approprié. 
+      iii) voir image décodage
 
       
+2) a)i) Code : 
+import numpy as np
+from  matplotlib import plt
+
+# Définition de l'intervalle des valeurs x
+x = np.linspace(0, 10, 400)
+
+# Définition des fonctions sinus en opposition de phase
+y1 = np.sin(x)
+y2 = np.sin(x + np.pi)  # Décalage de phase de pi radians
+
+# Création de la figure
+plt.figure(figsize=(8, 6))
+
+# Tracé des fonctions
+plt.plot(x, y1, label='Sinus')
+plt.plot(x, y2, label='Sinus décalé de $\pi$ radians')
+
+# Ajout de titres et d'étiquettes
+plt.title('Deux fonctions sinus en opposition de phase')
+plt.xlabel('Temps')
+plt.ylabel('Amplitude')
+plt.legend()
+
+# Sauvegarde de la figure au format png
+plt.savefig('sinus_opposition_phase.png')
+
+# Affichage de la figure
+plt.show()
+
+ii)voir image fonctions_sinus
+
+b)i)
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Définition de la grille de valeurs pour x et y
+x = np.linspace(-5, 5, 100)
+y = np.linspace(-5, 5, 100)
+X, Y = np.meshgrid(x, y)
+
+# Calcul de la fonction sin(x) * sin(y)
+Z = np.sin(X) * np.sin(Y)
+
+# Création du plot
+plt.figure()
+plt.contourf(X, Y, Z, cmap='viridis')  # Utilisation de contourf pour le remplissage de couleur
+plt.colorbar(label='sin(x) * sin(y)')  # Ajout d'une barre de couleur pour indiquer les valeurs
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Plot de sin(x) * sin(y)')
+plt.grid(True)
+plt.show()
+
+ii) voir image fonction_plot2D

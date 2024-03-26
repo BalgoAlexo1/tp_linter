@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+from  matplotlib import plt
 
 # Définition de l'intervalle des valeurs x
 x = np.linspace(0, 10, 400)
