@@ -76,3 +76,6 @@ plt.grid(True)
 plt.show()
 
 ii) voir image fonction_plot2D
+
+
+c: voir image ex3_c
